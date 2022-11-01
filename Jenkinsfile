@@ -23,7 +23,8 @@ pipeline {
         }
         
 
-      stage('Sonarqube Analysis - SAST') {
+      /*stage('Sonarqube Analysis - SAST') 
+      {
             steps {
                   withSonarQubeEnv('SonarQube') {
            sh "mvn sonar:sonar \
@@ -37,5 +38,5 @@ pipeline {
                 }
               }
         }
-     }
+     }*/
 }
