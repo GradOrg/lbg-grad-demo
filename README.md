@@ -1,1 +1,1 @@
-# lbg-grad-demo
+# maven-jenkins-pipeline
